@@ -83,23 +83,23 @@ const PropertyForm = () => {
       <div className='md:mx-9'>
         <div className='grid grid-cols-3 md:mx-28 '>
 
-          <div className='pr-14 pb-20'><Image className='md:-m-5 pb-2' src='/form.webp' alt='form' width={150} height={100} />
+          <div className='pr-14 pb-20'><Image className='md:-m-5 pb-2' src='/public/form.webp' alt='form' width={141} height={171} />
             <h1 className='font-bold text-[18px] pb-3'>Step 1 : Add proper detail</h1>
             <p className='text-[17px]'>Start filling the form with a few basic details like type of property, Area, Location, etc.</p>
           </div>
 
-          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='media.webp' alt='media' width={150} height={100} />
+          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='/public/media.webp' alt='media' width={141} height={171} />
             <h1 className='font-bold text-[18px] pb-3'>Step 2 : Add Images & Videos</h1>
             <p className='text-[17px]'>Upload your property images or videos either from your Mobile or Desktop.</p>
           </div>
 
-          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='/FirstHome.webp' alt='home' width={150} height={100} /><h1 className='font-bold text-[18px] pb-3'>Step 3 : Add Pricing</h1>
+          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='/public/FirstHome.webp' alt='home1' width={141} height={171} /><h1 className='font-bold text-[18px] pb-3'>Step 3 : Add Pricing</h1>
             <p className='text-[17px]'>Upload the expected price of your property, and now it is ready to post..</p>
           </div>
         </div>
 
 
-        <Image src='https://media-private.canva.com/_LNzk/MAEJHF_LNzk/1/s2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20240208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240208T144533Z&X-Amz-Expires=27020&X-Amz-Signature=d4c1adebc8d12891df04a373865bfe348a1610a1261c77defb2d8e5a67263125&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2008%20Feb%202024%2022%3A15%3A53%20GMT' alt='home' layout='responive' width={1800} height={900} />
+        <Image src='/room.webp' alt='home' layout='responive' width={1800} height={900} />
       </div>
 
 
