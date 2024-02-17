@@ -14,7 +14,6 @@ const Navbar = () => {
         <div className="bg-blue-600  rounded-full ">
         <Image className='pl-1' alt='profile icon' width={40} height={40}  src="/icons8-male-user-24.png"/>
         </div>
-
       </nav>
     );
   };
