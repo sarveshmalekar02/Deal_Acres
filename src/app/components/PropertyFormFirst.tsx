@@ -83,17 +83,17 @@ const PropertyForm = () => {
       <div className='md:mx-9'>
         <div className='grid grid-cols-3 md:mx-28 '>
 
-          <div className='pr-14 pb-20'><Image className='md:-m-5 pb-2' src='https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9qcnU3US9NQUZzVlNqcnU3US8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAMLZYF7JNqjsp4rywYH7wiJ9hyDMsTeVNQYvczvtBsYK&exp=1707433062&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAAU0_RzAcCF7fRstTCm1SugWw267HRxcIXFffHq1BQn9' alt='' width={150} height={100} />
+          <div className='pr-14 pb-20'><Image className='md:-m-5 pb-2' src='/form.webp' alt='form' width={150} height={100} />
             <h1 className='font-bold text-[18px] pb-3'>Step 1 : Add proper detail</h1>
             <p className='text-[17px]'>Start filling the form with a few basic details like type of property, Area, Location, etc.</p>
           </div>
 
-          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9lNGk2US9NQUZzVlhlNGk2US8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAALl-zjtztDa5lAu03lmKodH1vUzRFIGnSQ7YMQaHto2R&exp=1707433085&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAApT882vtuP9jheum-IoTDL-DuIF5-n5D63katCL2ET2' alt='' width={150} height={100} />
+          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='media.webp' alt='media' width={150} height={100} />
             <h1 className='font-bold text-[18px] pb-3'>Step 2 : Add Images & Videos</h1>
             <p className='text-[17px]'>Upload your property images or videos either from your Mobile or Desktop.</p>
           </div>
 
-          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9jcUZtRS9NQUZzVmRjcUZtRS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAItZDV17u0gJ_tRnz38M6NFgBJd6N89eIDjTuz_dteUF&exp=1707431436&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAJT-ASoTNyOirPN9Bu50YtKWmXMwpQxrHjhz1bJ-JH8F' alt='' width={150} height={100} /><h1 className='font-bold text-[18px] pb-3'>Step 3 : Add Pricing</h1>
+          <div className='pr-14 pb-16'><Image className='md:-m-5 pb-2' src='/FirstHome.webp' alt='home' width={150} height={100} /><h1 className='font-bold text-[18px] pb-3'>Step 3 : Add Pricing</h1>
             <p className='text-[17px]'>Upload the expected price of your property, and now it is ready to post..</p>
           </div>
         </div>

@@ -26,13 +26,13 @@ const PropertyFormSecond: React.FC = () => {
         <div className='py-1 pl-2'>
           <h1 className='md:mx-36 py-3 pl-2 text-[38px] font-semibold'>Frequently Asked Questions</h1>
           <div className='md:mx-32'>
-            <Image className='pb-11' src='https://media.canva.com/1/image-resize/1/1600_601_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9OTUg1Zy9NQUZzVnVOTUg1Zy8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAALOLXwV_GBsSDojRqPX8K1LUGhZdx1DuPbafeUc38Px7&exp=1707411762&x-canva-quality=screen_2x&csig=AAAAAAAAAAAAAAAAAAAAAIhv-sWDLxwVO1eZkuLBwJkgflOJq0VbYiu749bM5T2h' alt='qus' width={1000} height={600} />
+            <Image className='pb-11' src='/dealacres.webp' alt='dealacres' width={1000} height={600} />
           </div>
         </div>
 
         <div>
           <h1 className='md:mx-36 py-2 pl-3 text-[26px] font-[630]'>Interesting Reads</h1>
-          <Image className='md:mx-36 pb-12' src='https://media.canva.com/1/image-resize/1/800_251_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9zNHE5WS9NQUZyQ2JzNHE5WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAME66DG3fmbVGMCXjtmh8mQX6iJ8dhpN_gcvluOuPqkf&exp=1707414180&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAADy7sRoxKOKzQ1yuENvwtwdsFeGrtiHlPlQdUdzMe-n5' alt='Reads' width={950} height={280} />
+          <Image className='md:mx-36 pb-12' src='/feeds.webp' alt='Reads' width={950} height={280} />
         </div>
       </div>
     </>
