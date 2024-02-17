@@ -10,11 +10,9 @@ import Card  from '../Card/page'
 
 type UserType = 'owner' | 'agent' | 'builder';
 
-interface Pricing{
-    cardId:'builder';
-}
 
-const Brokerage:React.FC<Pricing> = ({cardId}) => {
+
+const Brokerage:React.FC<{}> = ({}) => {
    
         const router = useRouter();
         const [selectedUser, setSelectedUser] = useState<UserType | null>(null);

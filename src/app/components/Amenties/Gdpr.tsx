@@ -64,7 +64,7 @@ const Gdpr = () => {
                 <h1 className='font-bold  text-[25px] -mt-4 ml-28'>GDPR Agreement</h1>
                 <span className="pl-28 flex items-center mt-2">
                     <input type='checkbox' className="h-6 w-6 mr-2  " />
-                    <label className="text-lg">I agree to this website "Deal Acres" storing my submitted information; see more details below.</label>
+                    <label className="text-lg">I agree to this website &quot;Deal Acres&quot; storing my submitted information; see more details below.</label>
                 </span>
                 <div className="bg-blue-50 text-lg  rounded-lg p-4 pt-2 ml-24 mt-4 mr-20 pb-0 mb-10">
                     The data based on a search query on Deal Acres has been made available

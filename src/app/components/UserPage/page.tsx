@@ -127,7 +127,7 @@ const SecondPage = () => {
                             </label>
                         </span>
                     </div>
-                    <p className="mt-7 mb-16 text-lg">Please choose correctly, if you want to change in the future, it's done through the profile section</p>
+                    <p className="mt-7 mb-16 text-lg">Please choose correctly, if you want to change in the future, it&apos;s done through the profile section</p>
                     <button className="bg-blue-600 hover:bg-blue-800 font-semibold text-white py-3 px-36 mt-auto mb-14 rounded-md shadow-md transition duration-300 ease-in-out self-center" onClick={handleContinueClick}>
                         Continue
                     </button>

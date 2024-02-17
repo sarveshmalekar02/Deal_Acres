@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { ImageProps } from 'next/image';
 
 const Page: React.FC<{ title: string, src: string, alt: string, width: number, height: number }> = ({ title,src,alt,width,height}) => {
 

@@ -14,7 +14,7 @@ import Card from '../../components/Card/page'
 type UserType = 'owner' | 'agent' | 'builder'; // Define UserType type
 
 
-const photo = () => {
+const Photo = () => {
 
 
     const router = useRouter();
@@ -121,4 +121,4 @@ const photo = () => {
     );
 };
 
-export default photo;
+export default Photo;
