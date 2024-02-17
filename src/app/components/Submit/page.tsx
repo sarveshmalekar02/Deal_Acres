@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Card from "../Card/page";
+import Card from "../Card2/page";
 
 const Submit = () => {
   return (

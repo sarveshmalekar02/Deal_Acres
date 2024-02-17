@@ -6,7 +6,7 @@ import ProgressBar from '../ProgressBar/ProgressBar'
 import PriceDetails from '../Pricing/PriceDetails'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
-import Card  from '../Card/page'
+import Card  from '../Card2/page'
 
 type UserType = 'owner' | 'agent' | 'builder';
 

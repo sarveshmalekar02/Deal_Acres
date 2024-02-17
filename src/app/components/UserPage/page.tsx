@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Card from '../Card/page';
+import Card from '../Card2/page';
 
 type UserType = 'owner' | 'agent' | 'builder';
 

@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import CheckBox from '../CheckBox/CheckBox';
 
 import Image from 'next/image';
-import Card from '../Card/page'
+import Card from '../Card2/page'
 import BrokerDetails from '@/app/components/BrokerDetail/page'
 import BuilderDetails from '../BuilderDetail/page'
 import Gdpr from '../Amenties/Gdpr';

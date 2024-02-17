@@ -7,7 +7,7 @@ import ProgressBar from '../../components/ProgressBar/ProgressBar';
 
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation';
-import Card from '../../components/Card/page'
+import Card from '../../components/Card2/page'
 
 
 

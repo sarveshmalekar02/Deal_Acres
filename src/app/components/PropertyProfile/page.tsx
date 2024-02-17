@@ -9,7 +9,7 @@ import Checkbox from '../CheckBox/CheckBox';
 import { useState } from 'react';
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
-import Card from '../Card/page'
+import Card from '../Card2/page'
 import BathroomSizes from "./Bathroom";
 import Bedroom from "./Bedroom";
 import Balconies from "./Balconies";

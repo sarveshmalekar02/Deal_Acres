@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/app/styles/first.module.css';
-import Card from '../Card/page';
+import Card from '../Card2/page';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
 
