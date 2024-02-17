@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/app/styles/first.module.css';
-import Card from '../Card/page';
+
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
 
@@ -44,7 +44,17 @@ function Login() {
             <div className="md:px-8 mb-20 flex flex-grow flex-col md:flex-row">
                 <div className="md:w-3/4">
                     <div className="md:mx-36 -mt-12 w-full md:w-3/4 flex-grow-0">
-                        <Card src={'/login.webp'} alt={'login'} label='Your Phone number gives access to your account.' width={141} height={171} />
+                        
+                        <div className="bg-blue-200 md:mx-5 mt-24 border-2 rounded-lg border-blue-200">
+                            <h1 className="text-[19px] font-normal pr-2 md:mt-24 ml-10">Your Phone number gives access to your account.</h1>
+                            <Image className="md:mx-28 md:my-14 flex flex-row flex-none items-center" src='/login.webp' alt='login' width={141} height={171} />
+                            <div className="flex flex-col items-center md:my-24">
+                                <h1 className="text-lg font-bold">Need Help?</h1>
+                                <h2 className="text-lg">You Can Email Us</h2>
+                                <a href="mailto:contact@dealacres.com" className="text-lg text-blue-500 hover:underline p-0">Contact@dealacres.com</a>
+                            </div>
+                        </div>
+                  
                     </div>
                 </div>
                 <div className="md:w-8/12 md:mx-24  mt-5">

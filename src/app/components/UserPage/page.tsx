@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Card from '../Card/page';
+
+import Image from 'next/image';
 
 type UserType = 'owner' | 'agent' | 'builder';
 
@@ -137,8 +138,16 @@ const SecondPage = () => {
             {/* Second grid */}
             <div className="m-16 md:mt-0 flex flex-grow flex-col items-center md:items-start 0">
                 <div className="-mt-14 p-1 -mr-4 -ml-16 flex-grow-0">
-                    <Card label="This information creates a transparency and  builds trust with buyers / tenants" src="/User.webp" alt="User" width={140} height={140} />
-                </div>
+                <div className="bg-blue-200 md:mx-5 mt-24 border-2 rounded-lg border-blue-200">
+                            <h1 className="text-[19px] font-normal pr-2 md:mt-24 ml-10">This information creates a transparency and  builds trust with buyers / tenants</h1>
+                            <Image className="md:mx-28 md:my-14 flex flex-row flex-none items-center" src='/User.webp' alt="User" width={141} height={171} />
+                            <div className="flex flex-col items-center md:my-24">
+                                <h1 className="text-lg font-bold">Need Help?</h1>
+                                <h2 className="text-lg">You Can Email Us</h2>
+                                <a href="mailto:contact@dealacres.com" className="text-lg text-blue-500 hover:underline p-0">Contact@dealacres.com</a>
+                            </div>
+                        </div>
+                     </div>
             </div>
 
             <ToastContainer />

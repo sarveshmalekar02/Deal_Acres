@@ -9,7 +9,7 @@ import Checkbox from '../../components/CheckBox/CheckBox';
 import { useState } from 'react';
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
-import Card from '../../components/Card/page'
+
 import OfficeSpace from "./OfficeSpace";
 
 import Circle2 from "../../Commercial/Circle2";
@@ -169,8 +169,16 @@ const Page: React.FC<{}> = () => {
 
                     <div className="flex flex-col -mt-36">
                         <div className="flex flex-col items-center justify-center rounded-3xl mt-2 mr-8  ">
-                            <Card label={"Describe your property in brief so the buyer or renter can easily get to know how your property is what makes your property different from others."}
-                                src={"/plot.webp"} alt={"plot"} width={141} height={171} />
+
+                            <div className="bg-blue-200 md:mx-5 mt-24 border-2 rounded-lg border-blue-200">
+                                <h1 className="text-[19px] font-normal pr-2 md:mt-24 ml-10">Describe your property in brief so the buyer or renter can easily get to know how your property is what makes your property different from others.</h1>
+                                <Image className="md:mx-28 md:my-14 flex flex-row flex-none items-center" src='/plot.webp' alt='plot' width={141} height={171} />
+                                <div className="flex flex-col items-center md:my-24">
+                                    <h1 className="text-lg font-bold">Need Help?</h1>
+                                    <h2 className="text-lg">You Can Email Us</h2>
+                                    <a href="mailto:contact@dealacres.com" className="text-lg text-blue-500 hover:underline p-0">Contact@dealacres.com</a>
+                                </div>
+                            </div>
                         </div>
                         <div className="bg-blue-200 flex flex-col items-center justify-center rounded-3xl md:px-14 ml-5 mr-12 mt-5">
                             <Image className="pt-5" src="/smiley.webp" alt="smiley" width={90} height={100} />

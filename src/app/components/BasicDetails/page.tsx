@@ -7,7 +7,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation';
-import Card from '../Card/page'
+
 
 
 
@@ -61,8 +61,16 @@ const Details = () => {
             <div className=" min-h-screen  sm:px-4 md:px-8 lg:px-16 xl:px-20">
                 <div className=" max-w-full md:max-w-4xl pr-5 mx-auto flex flex-col md:flex-row gap-4">
                     <div className=" rounded-3xl    mb-36 -mt-11 md:mr-14 -ml-7   ">
-                        <Card label={'An Accurate Location is the most essential as it helps you to connect the perfect buyer or tenant'} src={'/map.svg'} alt={'map'} width={141} height={171} />
 
+                        <div className="bg-blue-200 md:mx-5 mt-24 border-2 rounded-lg border-blue-200">
+                            <h1 className="text-[19px] font-normal pr-2 md:mt-24 ml-10">An Accurate Location is the most essential as it helps you to connect the perfect buyer or tenant</h1>
+                            <Image className="md:mx-28 md:my-14 flex flex-row flex-none items-center" src='/map.svg' alt='map' width={141} height={171} />
+                            <div className="flex flex-col items-center md:my-24">
+                                <h1 className="text-lg font-bold">Need Help?</h1>
+                                <h2 className="text-lg">You Can Email Us</h2>
+                                <a href="mailto:contact@dealacres.com" className="text-lg text-blue-500 hover:underline p-0">Contact@dealacres.com</a>
+                            </div>
+                        </div>
                     </div>
 
                     <div className=' w-full md:w-5/6 mt-1    '>

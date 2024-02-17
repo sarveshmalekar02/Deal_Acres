@@ -6,7 +6,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
-import Card from '../Card/page'
+
 
 
 
@@ -50,7 +50,7 @@ const Photo = () => {
                     toast.error('Invalid user type');
                     break;
             }
-        }   else if(storedRole === 'plot') {
+        } else if (storedRole === 'plot') {
             switch (selectedUser) {
                 case 'owner':
                     router.push('/components/Amenties');
@@ -59,8 +59,8 @@ const Photo = () => {
                     toast.error("Owner details are required for plot owners");
                     break;
             }
-    } 
-        
+        }
+
         else {
             switch (selectedUser) {
                 case 'owner':
@@ -87,8 +87,17 @@ const Photo = () => {
                 <div className="max-w-full md:max-w-4xl mx-auto grid  md:grid-cols-2 gap-10">
                     {/* First grid */}
                     <div className="  rounded-3xl -mt-20 ">
-                        <Card label={'Click Perfact picture of your property so the renter or buyer see the best image of your property.'}
-                            src={'/camera.webp'} alt={'camera'} width={170} height={200} />
+
+                        <div className="bg-blue-200 md:mx-5 mt-24 border-2 rounded-lg border-blue-200">
+                            <h1 className="text-[19px] font-normal pr-2 md:mt-24 ml-10">Click Perfact picture of your property so the renter or buyer see the best image of your property.</h1>
+                            <Image className="md:mx-28 md:my-14 flex flex-row flex-none items-center" src='/camera.webp' alt='camera' width={141} height={171} />
+                            <div className="flex flex-col items-center md:my-24">
+                                <h1 className="text-lg font-bold">Need Help?</h1>
+                                <h2 className="text-lg">You Can Email Us</h2>
+                                <a href="mailto:contact@dealacres.com" className="text-lg text-blue-500 hover:underline p-0">Contact@dealacres.com</a>
+                            </div>
+                        </div>
+
                     </div>
 
                     {/* Second grid */}

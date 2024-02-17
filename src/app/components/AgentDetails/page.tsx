@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import CheckBox from '../CheckBox/CheckBox';
 
 import Image from 'next/image';
-import Card from '../Card/page'
+
 import BrokerDetails from '@/app/components/BrokerDetail/page'
 import BuilderDetails from '../BuilderDetail/page'
 import Gdpr from '../Amenties/Gdpr';
@@ -129,8 +129,16 @@ const Page = () => {
 
 
             <div className='   flex-none md:-ml-72  mt-3 w-4/12 '>
-                <Card label={'This information helps buyer to connect with you easily'} src={'/Men.webp'} alt={'Sale'} width={141} height={171}/>
-
+             
+                <div className="bg-blue-200 md:mx-5 mt-24 border-2 rounded-lg border-blue-200">
+                            <h1 className="text-[19px] font-normal pr-2 md:mt-24 ml-10">This information helps buyer to connect with you easily</h1>
+                            <Image className="md:mx-28 md:my-14 flex flex-row flex-none items-center" src='/Men.webp' alt='Sale' width={141} height={171} />
+                            <div className="flex flex-col items-center md:my-24">
+                                <h1 className="text-lg font-bold">Need Help?</h1>
+                                <h2 className="text-lg">You Can Email Us</h2>
+                                <a href="mailto:contact@dealacres.com" className="text-lg text-blue-500 hover:underline p-0">Contact@dealacres.com</a>
+                            </div>
+                        </div>
             </div>
 
 
