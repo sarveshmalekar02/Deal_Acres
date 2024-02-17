@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/app/styles/first.module.css';
-import Card from '../Card2/page';
+import Card from '../Card/page';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
 
@@ -44,7 +44,7 @@ function Login() {
             <div className="md:px-8 mb-20 flex flex-grow flex-col md:flex-row">
                 <div className="md:w-3/4">
                     <div className="md:mx-36 -mt-12 w-full md:w-3/4 flex-grow-0">
-                        <Card src={'/login.webp'} alt={'login'} title='Your Phone number gives access to your account.' width={141} height={171} />
+                        <Card src={'/login.webp'} alt={'login'} label='Your Phone number gives access to your account.' width={141} height={171} />
                     </div>
                 </div>
                 <div className="md:w-8/12 md:mx-24  mt-5">

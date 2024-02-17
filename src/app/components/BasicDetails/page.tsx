@@ -7,7 +7,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation';
-import Card from '../Card2/page'
+import Card from '../Card/page'
 
 
 
@@ -61,7 +61,7 @@ const Details = () => {
             <div className=" min-h-screen  sm:px-4 md:px-8 lg:px-16 xl:px-20">
                 <div className=" max-w-full md:max-w-4xl pr-5 mx-auto flex flex-col md:flex-row gap-4">
                     <div className=" rounded-3xl    mb-36 -mt-11 md:mr-14 -ml-7   ">
-                        <Card title={'An Accurate Location is the most essential as it helps you to connect the perfect buyer or tenant'} src={'/map.svg'} alt={'map'} width={141} height={171} />
+                        <Card label={'An Accurate Location is the most essential as it helps you to connect the perfect buyer or tenant'} src={'/map.svg'} alt={'map'} width={141} height={171} />
 
                     </div>
 

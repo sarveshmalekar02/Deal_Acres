@@ -9,7 +9,7 @@ import Checkbox from '../CheckBox/CheckBox';
 import { useState } from 'react';
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
-import Card from '../Card2/page'
+import Card from '../Card/page';
 import BathroomSizes from "./Bathroom";
 import Bedroom from "./Bedroom";
 import Balconies from "./Balconies";
@@ -230,7 +230,7 @@ const Page: React.FC<{}> = () => {
 
                     <div className="flex flex-col -mt-36">
                         <div className="flex flex-col items-center justify-center rounded-3xl mt-2 mr-8  ">
-                            <Card title={"Describe your property in brief so the buyer or renter can easily get to know how your property is what makes your property different from others."}
+                            <Card label={"Describe your property in brief so the buyer or renter can easily get to know how your property is what makes your property different from others."}
                                 src={"/home.svg"} alt={"home"} width={141} height={171} />
                         </div>
                         <div className="bg-blue-200 flex flex-col items-center justify-center rounded-3xl md:px-14 ml-5 mr-12 mt-5">

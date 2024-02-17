@@ -6,7 +6,7 @@ import ProgressBar from '../ProgressBar/ProgressBar'
 import PriceDetails from '../Pricing/PriceDetails'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
-import Card  from '../Card2/page'
+import Card  from '../Card/page'
 
 type UserType = 'owner' | 'agent' | 'builder';
 
@@ -134,7 +134,7 @@ const Brokerage:React.FC<{}> = ({}) => {
 
                     <div className="-mt-24 ">
                         <div className=" -mr-6  rounded-3xl tracking-wider" style={{paddingRight:'0.8rem'}}>
-                            <Card title={'Mention the Expected price of your property with your Brokerage Charges.'}
+                            <Card label={'Mention the Expected price of your property with your Brokerage Charges.'}
                              src={'/coins.webp'} alt={'Coins'} width={200} height={200} />
                         </div>
                     </div>

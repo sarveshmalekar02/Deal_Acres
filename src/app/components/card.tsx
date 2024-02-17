@@ -1,7 +1,5 @@
-'use client'
-
-import React from 'react';
-import Image from 'next/image';
+import React from 'react'
+import Image from 'next/image'
 
 
 
@@ -13,11 +11,17 @@ interface CardProps {
     height: number;
 }
 
-const Card: React.FC<CardProps> = ({ title, src, alt, width, height }) => {
-   
+
+const Card:React.FC<CardProps> = ({
+    title, 
+    src,  
+    alt,  
+    width,  
+    height
+}) => {
     return (
-        <>
-                <div className="  bg-blue-200  md:mx-5  mt-24 border-2 rounded-lg border-blue-200">
+        <div>
+             <div className="  bg-blue-200  md:mx-5  mt-24 border-2 rounded-lg border-blue-200">
                     <h1 className='text-[19px] font-normal pr-2  md:mt-24 ml-10'>{title}</h1>
                     <Image className='  md:mx-28  md:my-14 flex flex-row flex-none items-center' src={src} alt={alt} width={width} height={height} ></Image>
 
@@ -28,9 +32,8 @@ const Card: React.FC<CardProps> = ({ title, src, alt, width, height }) => {
                     </div>
 
                 </div>
-                </>
-    
-    );
-};
+        </div>
+    )
+}
 
-export default Card;
+export default Card

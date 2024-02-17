@@ -6,7 +6,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
-import Card from '../Card2/page'
+import Card from '../Card/page'
 
 
 
@@ -87,7 +87,7 @@ const Photo = () => {
                 <div className="max-w-full md:max-w-4xl mx-auto grid  md:grid-cols-2 gap-10">
                     {/* First grid */}
                     <div className="  rounded-3xl -mt-20 ">
-                        <Card title={'Click Perfact picture of your property so the renter or buyer see the best image of your property.'}
+                        <Card label={'Click Perfact picture of your property so the renter or buyer see the best image of your property.'}
                             src={'/camera.webp'} alt={'camera'} width={170} height={200} />
                     </div>
 

@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import CheckBox from '../CheckBox/CheckBox';
 
 import Image from 'next/image';
-import Card from '../Card2/page'
+import Card from '../Card/page'
 import BrokerDetails from '@/app/components/BrokerDetail/page'
 import BuilderDetails from '../BuilderDetail/page'
 import Gdpr from '../Amenties/Gdpr';
@@ -129,7 +129,7 @@ const Page = () => {
 
 
             <div className='   flex-none md:-ml-72  mt-3 w-4/12 '>
-                <Card title={'This information helps buyer to connect with you easily'} src={'/Men.webp'} alt={'Sale'} width={141} height={171}/>
+                <Card label={'This information helps buyer to connect with you easily'} src={'/Men.webp'} alt={'Sale'} width={141} height={171}/>
 
             </div>
 

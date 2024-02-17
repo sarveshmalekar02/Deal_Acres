@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Card from '../Card2/page';
+import Card from '../Card/page';
 
 type UserType = 'owner' | 'agent' | 'builder';
 
@@ -137,7 +137,7 @@ const SecondPage = () => {
             {/* Second grid */}
             <div className="m-16 md:mt-0 flex flex-grow flex-col items-center md:items-start 0">
                 <div className="-mt-14 p-1 -mr-4 -ml-16 flex-grow-0">
-                    <Card title="This information creates a transparency and  builds trust with buyers / tenants" src="/User.webp" alt="User" width={140} height={140} />
+                    <Card label="This information creates a transparency and  builds trust with buyers / tenants" src="/User.webp" alt="User" width={140} height={140} />
                 </div>
             </div>
 
